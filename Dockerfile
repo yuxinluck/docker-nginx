@@ -3,7 +3,7 @@ MAINTAINER yuxin <noaman.yu@yamibuy.com>
 
 
 COPY  ./nginx /usr/local/nginx
-
+RUN chmod +x /usr/local/nginx/sbin/nginx 
 
 EXPOSE 80/tcp
 
