@@ -1,0 +1,6 @@
+2018/12/12 08:58:36 [warn] 9635#0: the number of "worker_processes" is not equal to the number of "worker_cpu_affinity" masks, using last mask for remaining worker processes
+2018/12/12 08:59:37 [alert] 9644#0: sched_setaffinity() failed (22: Invalid argument)
+2018/12/12 08:59:37 [alert] 9645#0: sched_setaffinity() failed (22: Invalid argument)
+2018/12/12 08:59:37 [alert] 9647#0: sched_setaffinity() failed (22: Invalid argument)
+2018/12/12 08:59:37 [alert] 9646#0: sched_setaffinity() failed (22: Invalid argument)
+2018/12/13 08:34:54 [emerg] 5556#0: getpwnam("webadm") failed in /usr/local/nginx/conf/nginx.conf:1
